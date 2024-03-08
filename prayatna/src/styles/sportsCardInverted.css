@@ -1,0 +1,28 @@
+.Sports_Card_Inverted{
+    display:flex;
+    flex-direction:column;
+    height:300px;
+    width:250px;
+    padding:10px;
+    transition:0.5s;
+    margin-bottom:0px;
+    border-radius:10px;
+    
+}
+.Sports_Card_Inverted:hover{
+    transform:scale(1.1);
+    box-shadow: 0px 10px 10px rgba(2, 0, 15, 0.949);
+    z-index:2;
+}
+.Sports_Name_Inverted{
+    text-align: center;
+    background-color:lightgray;
+    height:20%;
+    margin-top:15px;
+    border-radius:5px;
+}
+.Sports_Card_Inverted> img{
+    height:100%;
+    width:100%;
+    border-radius:5px;
+}

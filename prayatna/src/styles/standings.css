@@ -1,0 +1,29 @@
+.body {
+    font-family: "Ubuntu", sans-serif;
+    
+  }
+      .main{
+          padding-top: 2rem;
+          padding-left: 2rem;
+          padding-right: 4rem;
+          padding-bottom: 5rem;
+          font-family: "Ubuntu", sans-serif;
+      }
+      .heading{
+          padding: 2rem;
+          font-size: 2rem;
+      }
+      .container{
+          background-color: rgb(240, 237, 237);
+          padding: 2rem;
+          border-radius: 1rem;
+      }
+      .container table tbody tr{
+          height: 3rem;
+          font-size: 1.1rem;
+      }
+      .container table thead{
+          height: 4rem;
+          font-size: 1.2rem;
+          font-weight: 200;
+      }

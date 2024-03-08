@@ -1,0 +1,30 @@
+.photos-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px; /* Adjust as needed */
+}
+
+.photo {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center; /* Vertically center the image */
+  justify-content: center; /* Horizontally center the image */
+  height: 100%; /* Ensure the container takes full height */
+}
+
+.photo img {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+  transition: transform 0.3s;
+  cursor: zoom-in;
+}
+
+.photo img:hover {
+  transform: scale(1.2); /* Zoom effect on hover */
+}

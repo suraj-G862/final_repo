@@ -1,0 +1,56 @@
+.TeamsComp_Container{
+    height:60px;
+    width:100%;
+    display:flex;
+    background-color:#0a0817;
+    color:white;
+    border-radius:15px;
+    align-items:center;
+    justify-content:space-between;
+    box-sizing:border-box;
+    margin:20px 0 20px 0;
+    padding:20px;
+    cursor:pointer;
+    transition:0.2s;
+}
+.TeamsComp_Container:hover{
+    transform:scale(1.05);
+    z-index:2;
+}
+
+.Team_Logo{
+    height:60px;
+    width:60px;
+    border-radius:50%;
+    background-color:white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    color:black;
+}
+.TeamName{
+    height:100%;
+    width:100px;
+}
+.CaptainName{
+    height:100%;
+    width:220px;
+}
+.Team_Members{
+    display:flex;
+    align-items:center;
+}
+.Team_Members>button{
+    all:initial;
+    margin:5px;
+    background-color:white;
+    border-radius:50%;
+    outline:none;
+}
+.Team_Members_Hidden{
+   
+    width:100%;
+    justify-content:center;
+    display:none;
+    
+}
