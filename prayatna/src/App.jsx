@@ -7,7 +7,7 @@ import Standings from "./standings"
 import Photos from "./photos"
 import Stats from "./Stats"
 import Footer from "./Footer";
-
+import Matches from "./matches"
 
 
 function App(){
@@ -17,6 +17,7 @@ function App(){
           <Home/>
           <Teams/>
           <Standings/>
+          <Matches/>
           <Photos/>
           <Stats/>
           <Footer/>

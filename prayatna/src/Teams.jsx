@@ -1,8 +1,8 @@
 import React,{useState,useEffect} from "react";
 import TeamsComp from "./TeamsComp";
 import "./styles/teams.css";
-import Papa from 'papaparse';
-import Data from './PrayatnaTeams.csv';
+// import Papa from 'papaparse';
+// import Data from './PrayatnaTeams.csv';
 
 function Teams(){
     const[ arr,setArr]=useState([0,0,0,0,0,0,0,0]);
