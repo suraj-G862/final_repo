@@ -14,12 +14,12 @@ function PrayatnaRanking() {
   ]);
 
   return (
-    <section className="main">
+    <section className="standings-main">
       <section className="heading">
         <h1>Prayatna Ranking</h1>
       </section>
 
-      <section className="container">
+      <section className="standings-container">
         <table border={1} frame="void" rules="rows">
           <thead>
             <tr>
