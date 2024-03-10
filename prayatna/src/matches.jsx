@@ -24,17 +24,17 @@ const UpcomingMatches = ({data}) => {
     const [startIndex, setStartIndex] = useState(0);
   
     const handleNext = () => {
-      setStartIndex(prevIndex => Math.min(prevIndex + 3, data.length - 3));
+      setStartIndex(prevIndex => Math.min(prevIndex + 4, data.length - 4));
     };
   
     const handlePrev = () => {
-      setStartIndex(prevIndex => Math.max(prevIndex - 3, 0));
+      setStartIndex(prevIndex => Math.max(prevIndex - 4, 0));
     };
 
   return (
     <div className="slideshow">
       <div className="container-wrapper">
-        {data.slice(startIndex, startIndex + 3).map(container => (
+        {data.slice(startIndex, startIndex + 4).map(container => (
           <div key={container.id} className="container">
             <div id="image"><Sport_Image sport={container.sport}/></div>
             <div id="vs">{container.team1} VS {container.team2}</div>
@@ -49,7 +49,7 @@ const UpcomingMatches = ({data}) => {
         <button onClick={handlePrev} disabled={startIndex === 0}>
         <i className="material-icons">west</i>
         </button>
-        <button onClick={handleNext} disabled={startIndex >= data.length - 3}>
+        <button onClick={handleNext} disabled={startIndex >= data.length - 4}>
         <i className="material-icons">east</i>
         </button>
       </div>
@@ -62,17 +62,17 @@ const PastMatches = ({data}) => {
   const [startIndex, setStartIndex] = useState(0);
 
   const handleNext = () => {
-    setStartIndex(prevIndex => Math.min(prevIndex + 3, data.length - 3));
+    setStartIndex(prevIndex => Math.min(prevIndex + 4, data.length - 4));
   };
 
   const handlePrev = () => {
-    setStartIndex(prevIndex => Math.max(prevIndex - 3, 0));
+    setStartIndex(prevIndex => Math.max(prevIndex - 4, 0));
   };
 
 return (
   <div className="slideshow">
     <div className="container-wrapper">
-      {data.slice(startIndex, startIndex + 3).map(container => (
+      {data.slice(startIndex, startIndex + 4).map(container => (
         <div key={container.id} className="container">
           <div id="image"><Sport_Image sport={container.sport}/></div>
           <div id="vs"><h id="winningteam">{container.winningteam}</h> VS <h id="losingteam">{container.losingteam}</h></div>
@@ -85,7 +85,7 @@ return (
       <button onClick={handlePrev} disabled={startIndex === 0}>
       <i className="material-icons">west</i>
       </button>
-      <button onClick={handleNext} disabled={startIndex >= data.length - 3}>
+      <button onClick={handleNext} disabled={startIndex >= data.length - 4}>
       <i className="material-icons">east</i>
       </button>
     </div>
