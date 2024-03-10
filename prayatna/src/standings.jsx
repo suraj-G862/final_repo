@@ -15,12 +15,12 @@ function PrayatnaRanking() {
 
   return (
     <section className="standings-main">
-      <section className="heading">
+      <section className="standings-heading">
         <h1>Prayatna Ranking</h1>
       </section>
 
       <section className="standings-container">
-        <table border={1} frame="void" rules="rows">
+      <table className="standings-table" border={1} frame="void" rules="rows">
           <thead>
             <tr>
               <th width="10%" align="left">RANKING</th>
