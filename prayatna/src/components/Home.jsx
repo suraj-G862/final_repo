@@ -1,28 +1,23 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./styles/home.css";
 import SportsCard from "./SportsCard";
 import VersusCard from "./VersusCard";
 import SportsCardInverted from "./SportsCardInverted";
 
 function Home(){
+  
+
         return (
 
             <div className="LandingPage_Container">
 
+               
+
                 <div className="Poster_Image">
                 <div className="Background_Image">
-                             <div className="Poster_Text1">
-                                        <p className="text">JOIN THE THRILL OF SPORTS</p>
-                                    </div>
-                            <div className="Poster_Text2">
-                                    <p>
-                                   <strong>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</strong>
-                                 
-                                    </p>
-                                    </div>
-                                    
-                </div>
-                    
+                <img src="./Group 143726071.jpg" alt=""></img>  
+                </div> 
+
                     <div className="UpcomingMatches">
                            <div>
                             <h2>Upcoming Matches</h2>
@@ -87,7 +82,7 @@ function Home(){
                     </div>
                 </div>
 
-
+                    
 
 
 

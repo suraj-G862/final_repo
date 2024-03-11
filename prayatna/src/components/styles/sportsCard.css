@@ -1,7 +1,7 @@
 .Sports_Card{
     display:flex;
     flex-direction:column;
-    height:300px;
+    height:250px;
     width:250px;
     padding:10px;
     transition:0.2s;
@@ -12,16 +12,22 @@
 }
 .Sports_Card:hover{
     transform:scale(1.1);
-    box-shadow: 0px 10px 10px rgba(2, 0, 15, 0.949);
+    box-shadow: 0px 5px 5px rgba(2, 0, 15, 0.949);
     z-index:2;
     
 }
 .Sports_Name{
     text-align: center;
     background-color:lightgray;
-    height:20%;
+    height:15%;
+    font-size:0.75rem;
+    display:flex;
+    justify-content: center;
     margin-bottom:15px;
     border-radius:5px;
+}
+.Sports_Name>h1{
+    margin:0;
 }
 .Sports_Card> img{
     border-radius:5px;
