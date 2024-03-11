@@ -24,19 +24,45 @@ const photos = [
 
 function PhotosGallery() {
   return (
-    <div className="photos-container">
-      {photos.map((photo) => (
-        <div key={photo.id} className="photo">
-          {/* <Zoom> */}
-            <img
-              src={photo.src}
-              alt=""
-              style={{ width: "100%", height: "100%", cursor: "zoom-in" }}
-            />
-          {/* </Zoom> */}
-        </div>
-      ))}
+    <>
+    <h1 className="title_photo">Get a glimpse of fire in our Veins</h1>
+    <div class="container_photo">
+      <div class="column_photo">
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
     </div>
+    <div class="container_photo">
+      <div class="column_photo">
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+      <div class="column_photo">
+        <div class="big-image_photo"><img src="https://images.unsplash.com/photo-1562307534-a03738d2a81a?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bG9nb3xlbnwwfHwwfHx8MA%3D%3D" alt="" className="image_ins" /></div>
+        <div class="small-image_photo"><img src="https://images.unsplash.com/photo-1599305445671-ac291c95aaa9?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" className="image_ins" /></div>
+      </div>
+    </div>
+    </>
   );
 }
 

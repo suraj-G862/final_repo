@@ -92,14 +92,14 @@ const rankings = [
   {
     game: "Kabaddi Rankings",
     teams: [
-      { name: "Team A", score: 10 },
-      { name: "Team B", score: 15 },
-      { name: "Team C", score: 8 },
-      { name: "Team D", score: 12 },
-      { name: "Team E", score: 20 },
-      { name: "Team F", score: 18 },
-      { name: "Team G", score: 14 },
-      { name: "Team H", score: 9 },
+      { name: "Gladiator", score: 10 },
+      { name: "Fire Birds", score: 15 },
+      { name: "Silver Falcons", score: 8 },
+      { name: "Desert Hawks", score: 12 },
+      { name: "Warlords", score: 20 },
+      { name: "Black Archers", score: 18 },
+      { name: "Snow Leopards", score: 14 },
+      { name: "Tridents", score: 9 },
       // Add more teams...
     ],
   },
