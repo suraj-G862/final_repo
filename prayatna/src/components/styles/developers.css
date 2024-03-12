@@ -3,6 +3,8 @@
     height:400px;
     display:flex;
     background-color:#76ABAE;
+    font-size:0.75rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    
 }
 .animation_box{
