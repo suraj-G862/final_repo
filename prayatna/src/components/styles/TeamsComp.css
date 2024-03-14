@@ -8,6 +8,7 @@
     align-items:center;
     justify-content:space-between;
     box-sizing:border-box;
+    align-items:center;
     margin:20px 0 20px 0;
     padding:20px;
     cursor:pointer;
@@ -53,4 +54,24 @@
     justify-content:center;
     display:none;
     
+    
+}
+.Team_Members_Hidden>ul{
+    padding-left:0;
+}
+.Team_Members_Hidden>ul>li{
+    list-style:none;
+   
+}
+
+@media(max-width:600px){
+    .TeamsComp_Container{
+        font-size:0.68rem;
+        
+    }
+    .Team_Members_Hidden{
+   
+        font-size:0.5rem;
+        
+    }
 }

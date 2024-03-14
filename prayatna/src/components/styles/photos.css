@@ -2,10 +2,18 @@
   display: flex;
   justify-content: space-between;
   /* Adjust container width and height as needed */
-  width: 85%;
+  width: 95%;
   height: 400px;
   margin: 0 auto;
   /* border: 2px solid black; */
+}
+
+.photos_container{
+
+  text-align:center;
+}
+.photos_container>h1{
+  margin:10px 0 10px 0;
 }
 
 .column_photo {

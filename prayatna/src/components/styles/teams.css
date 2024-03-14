@@ -1,16 +1,19 @@
 .Teams_Container{
-    box-sizing: border-box;
-    padding:40px;
-    display:flex;
-    flex-direction:column;
+  box-sizing: border-box;
+  padding:40px;
+  display:flex;
+  flex-direction:column;
+  text-align:center;
 }
 .Teams_Container>h1{
-    font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size:2rem;
+  font-family: "Dancing Script", cursive;
+font-optical-sizing: auto;
+font-weight: 700;
+font-style: normal;
+font-size:2rem;
 }
-li{
-  list-style:none;
+@media(max-width:600px){
+.Teams_Container{
+  padding:10px;
+}
 }

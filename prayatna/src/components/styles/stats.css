@@ -26,3 +26,22 @@ td {
   display: flex;
   flex-wrap: wrap;
 }
+
+
+@media(max-width:600px){
+  
+  .flex-container{
+    justify-content: space-around;
+  }
+  .GameRankingsCard{
+    margin:0;
+    padding:0;
+    text-align:center;
+    box-sizing:border-box;
+    padding:10px;
+    font-size:0.75rem;
+  }
+  
+  
+
+}

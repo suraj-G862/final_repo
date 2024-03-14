@@ -36,10 +36,7 @@
     font-optical-sizing: auto;
     font-weight: 600;
     font-style: normal;
-    margin:0px 0 20px 0;
-    border-bottom:3px solid black;
-    padding:5px ;
-
+    margin:20px 0 20px 0;
 }
 
 
@@ -47,7 +44,7 @@
     
     display:flex;
     justify-content:space-around;
-    margin-bottom:15px;
+    
    
     
 }
@@ -58,16 +55,31 @@
 .UpcomingMatches{
     display:flex;
     width:30%;
+    height:100%;
     flex-direction:column;
     align-items:center;
-    justify-content:flex-end;
+    justify-content:space-around;
     text-align:center;
 }
 .UpcomingMatches>div>h2{
-    font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-size:2rem;
-  margin:10px;
+    margin:0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media(max-width:600px){
+    .Sports_Played{
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    .Sports_Images_Cards1{
+        flex-direction:column;
+        
+    }
+    .Sports_Images_Cards{
+        flex-direction:column;
+        
+    }
+    .UpcomingMatches>div>h2{
+        font-size:0.85rem;
+    }
 }
