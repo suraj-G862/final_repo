@@ -9,7 +9,7 @@ function Header(){
                        <div className="Navbar_Container">
 
                     <Link to="/" ><div className="Navbar_Logo">
-                                        <img src="./prayatna.png" alt="" />
+                                        <img src="./prayatna_01.png" alt="" />
                                         <img src="./PrayatnaLogo.jpg" alt=""></img>
                                 </div>
                     </Link>
