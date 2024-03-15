@@ -38,7 +38,7 @@ const photos = [
 
 function PhotosGallery() {
   return (
-    <>
+    <div className="photos_container">
     <h1 className="title_photo">Get a glimpse of fire in our Veins</h1>
     <div class="container_photo">
       <div class="column_photo">
@@ -76,7 +76,7 @@ function PhotosGallery() {
         <div class="small-image_photo"><img src={photos8} alt="" className="image_ins" /></div>
       </div>
     </div>
-    </>
+    </div>
   );
 }
 

@@ -76,7 +76,7 @@ const rankings = [
     ],
   },
   {
-    game: "TT Rankings",
+    game: "TableTennis Rankings",
     teams: [
       { name: "Gladiator", score: 1 },
       { name: "Fire Birds", score: 4 },
